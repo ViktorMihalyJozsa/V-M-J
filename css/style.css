@@ -19,6 +19,23 @@ html, body {
     margin: 0 auto;
 }
 
+    @media screen and (max-width: 1024px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+                "header"
+                "main"
+                "footer";
+            width: 80vw;
+            height: 100vh;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+    }
+
     @media screen and (max-width: 768px) {
         .grid-container {
             display: grid;
@@ -46,6 +63,20 @@ html, body {
     border-top: 1px solid hsla(0, 0%, 30%, .8);
     border-radius: 20vh 0vh 0vh 0vh;
 }
+
+    @media screen and (max-width: 1024px) {
+        .header {
+            display: table;
+            text-align: center;
+            height: 80vh;
+            margin-top: 20vh; /*    M A R G I N - T O P !!!    */
+            padding: 0vh 5vh 0vh 5vh;
+            background-color: hsla(0, 0%, 100%, .5);
+            box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+            border-top: 1px solid hsla(0, 0%, 30%, .8);
+            border-radius: 20vh 0vh 0vh 0vh;
+        }
+    }
 
     @media screen and (max-width: 768px) {
         .header {
@@ -82,6 +113,28 @@ img:hover {
     transform: scale(1.4);
     filter: grayscale(20%);
 }
+
+    @media screen and (max-width: 1024px) {
+        .profile-image {
+            margin-top: -15vh; /*  M A R G I N - T O P  M I N U S !!! */
+            padding: 2vh 0vh 2vh 0vh;
+        }
+
+        img {
+            width: 30vh;
+            height: 30vh;
+            border-radius: 50%;
+            padding: 1px;
+            background-color: #666;
+            transition: all 0.5s ease-in-out;
+            filter: grayscale(50%);
+        }
+
+        img:hover {
+            transform: scale(1.4);
+            filter: grayscale(20%);
+        }
+    }
 
     @media screen and (max-width: 768px) {
         .profile-image {
@@ -128,6 +181,29 @@ p {
     letter-spacing: 0.1rem;
 }
 
+    @media screen and (max-width: 1024px) {
+        h1 {
+            font-family: '', cursive;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 0.25rem;
+        }
+      
+        h2{
+            font-family: '', cursive;
+            font-size: 1.75rem;
+            font-weight: bold;
+            letter-spacing: 0.25rem;
+        }
+      
+        p {
+            font-family: '', cursive;
+            font-size: 1rem;
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+        }
+    }
+
     @media screen and (max-width: 768px) {
         h1 {
             font-family: '', cursive;
@@ -164,6 +240,15 @@ p {
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 
+    @media screen and (max-width: 1024px) {
+        .main {
+            padding: 5vh 10vh 5vh 10vh;
+            background-color: hsla(0, 0%, 100%, .5);
+            box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+        }
+        
+    }
+
     @media screen and (max-width: 768px) {
         .main {
             padding: 5vh 5vh 5vh 5vh;
@@ -196,34 +281,6 @@ p {
     border-radius: 10px;
     text-align: center;
 }
-
-    @media screen and (max-width: 768px) {
-        .student-countainer {
-            display: flex; 
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-        }
-
-        .work-countainer {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-        }
-
-        .student-item,
-        .work-item {
-            width: 100%;
-            margin: 2vh 2vh 2vh 2vh;
-            padding: 2vh 2vh 2vh 2vh;
-            border: 1px solid #000000;
-            border-radius: 10px;
-            text-align: center;
-        }
-    }
 /*  ======  E N D  M A I N  C O N T E N T - I T E M  =======  */
 /*  ========================================================  */
 
@@ -253,6 +310,36 @@ a:active {
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
 }
+
+    @media screen and (max-width: 1024px) {
+        a {
+            font-family: '', cursive;
+            text-decoration: none;
+            font-size: 1.125rem;
+            font-weight: bold;
+            color: rgba(198, 13, 13, 1);
+        }
+            
+        a:hover {
+            font-family: '', cursive;
+            font-size: 1.125rem;
+            letter-spacing: 0.1rem;
+            font-weight: bold;
+            color: yellow;
+            text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+            transition: all 1s ease-in-out;
+        }
+        
+        a:active {
+            font-family: '', cursive;
+            font-size: 1.125rem;
+            letter-spacing: 0.1rem;
+            font-weight: bold;
+            color: yellow;
+            text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+        }
+        
+    }
 
     @media screen and (max-width: 768px) {
         a {
@@ -305,6 +392,30 @@ span {
     letter-spacing: 0.25rem;
     color: rgba(198, 13, 13, 1);
 }
+
+    @media screen and (max-width: 1024px) {
+        .footer {
+            background-color: hsla(0, 0%, 100%, .5);
+            box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+            border-bottom: 1px solid hsla(0, 0%, 30%, .8);
+            border-radius: 0vh 0vh 20vh 0vh;
+            padding: 2vh 0vh 2vh 0vh;
+        }
+
+        ul, 
+        li {
+            display: inline;
+            letter-spacing: 0.25rem;
+        }
+
+        span {
+            font-family: '', cursive;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.25rem;
+            color: rgba(198, 13, 13, 1);
+        }
+    }
 
     @media screen and (max-width: 768px) {
         .footer {
