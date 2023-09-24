@@ -67,11 +67,7 @@
         padding: 2vh 0vh 2vh 0vh;
     }
 
-    .section-headline {
-        border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
-        padding: 2vh 0vh 2vh 0vh;
-    }
-
+    .section-headline,
     .section {
         border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
         padding: 2vh 0vh 2vh 0vh;
@@ -89,19 +85,15 @@
 }
 
     .student-countainer {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        justify-content: start;
     }
 
     .work-countainer {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        justify-content: end;
     }
 
         .student-item,
@@ -135,6 +127,6 @@
         font-family: '', cursive;
         font-weight: bold;
         color: rgba(198, 13, 13, 1);
-        font-size: clamp(16px, 4vw, 24px);
+        font-size: clamp(20px, 3vh, 25px);
         letter-spacing: 0.25rem;
     }

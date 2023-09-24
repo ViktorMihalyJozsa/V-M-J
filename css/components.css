@@ -23,21 +23,21 @@
 h1 {
     font-family: '', cursive;
     font-weight: bold;
-    font-size: clamp(24px, 6vw, 36px);
+    font-size: clamp(30px, 4vh, 40px);
     letter-spacing: 0.25rem;
 }
   
 h2{
     font-family: '', cursive;
     font-weight: bold;
-    font-size: clamp(16px, 4vw, 24px);
+    font-size: clamp(20px, 3vh, 25px);
     letter-spacing: 0.25rem;
 }
   
 p {
     font-family: '', cursive;
     font-weight: bold;
-    font-size: clamp(12px, 3vw, 18px);
+    font-size: clamp(15px, 2vh, 20px);
     letter-spacing: 0.1rem;
 }
 
@@ -71,7 +71,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: rgba(198, 13, 13, 1);
-    font-size: clamp(16px, 4vw, 24px);
+    font-size: clamp(20px, 3vh, 25px);
 }
     
 a:hover {
@@ -80,7 +80,7 @@ a:hover {
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
     transition: all 1s ease-in-out;
-    font-size: clamp(16px, 4vw, 24px);
+    font-size: clamp(20px, 3vh, 25px);
     letter-spacing: 0.1rem;
 }
 
@@ -89,6 +89,6 @@ a:active {
     font-weight: bold;
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: clamp(16px, 4vw, 24px);
+    font-size: clamp(20px, 3vh, 25px);
     letter-spacing: 0.1rem;
 }
