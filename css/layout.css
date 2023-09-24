@@ -1,0 +1,140 @@
+/*  ========================================================================  *\
+
+    V M J  ~  L A Y O U T . C S S
+
+    * C O M E N T
+    
+    * GRID-COUNTAINER
+    *
+    * HEADER
+    *     header:
+    *         profile-image;
+    *         section-headline:
+    *         section;
+    *
+    * MAIN
+    *     main:
+    *         student-countainer;
+    *         work-countainer;
+    *             student-item;
+    *             work-item;
+    *
+    * FOOTER
+    *     footer;
+    *         ul, li;
+    *         span;
+
+\*  ========================================================================  */
+
+
+/*  ========================================================================  *\
+    G R I D - C O N T A I N E R
+\*  ========================================================================  */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    margin: 0 auto;
+    text-align: center;
+    width: min(1024px, 95vw);
+    height: 100vh;
+}
+
+
+/*  ========================================================================  *\
+    H E A D E R
+\*  ========================================================================  */
+
+.header {
+    display: table;
+    text-align: center;
+    height: 70vh;
+    margin-top: 30vh;
+    padding: 0vh 5vh 0vh 5vh;
+    background-color: hsla(0, 0%, 100%, .5);
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+    border-radius: 20vh 0vh 0vh 0vh;
+}
+
+    .profile-image {
+        margin-top: -20vh;
+        padding: 2vh 0vh 2vh 0vh;
+    }
+
+    .section-headline {
+        border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
+        padding: 2vh 0vh 2vh 0vh;
+    }
+
+    .section {
+        border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
+        padding: 2vh 0vh 2vh 0vh;
+    }
+
+
+/*  ========================================================================  *\
+    M A I N
+\*  ========================================================================  */
+
+.main {
+    background-color: hsla(0, 0%, 100%, .5);
+    padding: 5vh 15vh 5vh 15vh;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+    .student-countainer {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .work-countainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+        .student-item,
+        .work-item {
+            text-align: center;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            margin: 2vh 2vh 2vh 2vh;
+            padding: 2vh 2vh 2vh 2vh;
+        }
+
+
+/*  ========================================================================  *\
+    F O O T E R
+\*  ========================================================================  */
+
+.footer {
+    background-color: hsla(0, 0%, 100%, .5);
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-bottom: 1px solid hsla(0, 0%, 30%, .8);
+    padding: 2vh 0vh 2vh 0vh;
+    border-radius: 0vh 0vh 20vh 0vh;
+}
+
+    ul, li {
+    display: inline;
+    letter-spacing: 0.5rem;
+    }
+
+    span {
+        font-family: '', cursive;
+        font-weight: bold;
+        color: rgba(198, 13, 13, 1);
+        font-size: clamp(16px, 4vw, 24px);
+        letter-spacing: 0.25rem;
+    }

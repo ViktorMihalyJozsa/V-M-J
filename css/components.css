@@ -1,0 +1,94 @@
+/*  ========================================================================  *\
+
+    V M J  ~  C O M P O N E N T S . C S S
+
+    * C O M E N T
+    
+    * FONTS
+    *     h1, h2, p;
+    *
+    * IMAGE
+    *     img, img a:hover;
+    *
+    * REFERENCES
+    *     a, a:hover, a:active;
+
+\*  ========================================================================  */
+
+
+/*  ========================================================================  *\
+    F O N T S
+\*  ========================================================================  */
+
+h1 {
+    font-family: '', cursive;
+    font-weight: bold;
+    font-size: clamp(24px, 6vw, 36px);
+    letter-spacing: 0.25rem;
+}
+  
+h2{
+    font-family: '', cursive;
+    font-weight: bold;
+    font-size: clamp(16px, 4vw, 24px);
+    letter-spacing: 0.25rem;
+}
+  
+p {
+    font-family: '', cursive;
+    font-weight: bold;
+    font-size: clamp(12px, 3vw, 18px);
+    letter-spacing: 0.1rem;
+}
+
+
+/*  ========================================================================  *\
+    I M A G E
+\*  ========================================================================  */
+
+img {
+    width: clamp(240px, 30vw, 360px);
+    height: clamp(240px, 30vw, 360px);
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+}
+
+img:hover {
+    transform: scale(1.4);
+    filter: grayscale(20%);
+}
+
+
+/*  ========================================================================  *\
+    R E F E R E N C E S
+\*  ========================================================================  */
+
+a {
+    font-family: '', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(198, 13, 13, 1);
+    font-size: clamp(16px, 4vw, 24px);
+}
+    
+a:hover {
+    font-family: '', cursive;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+    transition: all 1s ease-in-out;
+    font-size: clamp(16px, 4vw, 24px);
+    letter-spacing: 0.1rem;
+}
+
+a:active {
+    font-family: '', cursive;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+    font-size: clamp(16px, 4vw, 24px);
+    letter-spacing: 0.1rem;
+}
