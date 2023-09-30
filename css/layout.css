@@ -73,6 +73,18 @@
         padding: 2vh 0vh 2vh 0vh;
     }
 
+    @media (max-width: 768px) {
+        .header {
+            display: table;
+            text-align: center;
+            height: 75vh;
+            margin-top: 25vh;
+        }
+        
+            .profile-image {
+                margin-top: -16vh;
+            }
+    }
 
 /*  ========================================================================  *\
     M A I N
