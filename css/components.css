@@ -5,7 +5,7 @@
     * C O M E N T
     
     * FONTS
-    *     h1, h2, p;
+    *     h1, h2 & contact, contact, p;
     *
     * IMAGE
     *     img, img a:hover;
@@ -21,23 +21,29 @@
 \*  ========================================================================  */
 
 h1 {
-    font-family: '', cursive;
+    font-family: 'Raleway', cursive;
     font-weight: bold;
     font-size: clamp(30px, 4vh, 40px);
     letter-spacing: 0.25rem;
 }
   
-h2{
-    font-family: '', cursive;
+h2,
+.contact{
+    font-family: 'Raleway', cursive;
     font-weight: bold;
     font-size: clamp(20px, 3vh, 25px);
     letter-spacing: 0.25rem;
 }
+
+.contact {
+    color: rgba(198, 13, 13, 1);
+}
   
 p {
-    font-family: '', cursive;
+    font-family: 'Raleway', cursive;
     font-weight: bold;
     font-size: clamp(15px, 2vh, 20px);
+    line-height: 110%;
     letter-spacing: 0.1rem;
 }
 
@@ -67,28 +73,28 @@ img:hover {
 \*  ========================================================================  */
 
 a {
-    font-family: '', cursive;
+    font-family: 'Raleway', cursive;
     text-decoration: none;
     font-weight: bold;
     color: rgba(198, 13, 13, 1);
-    font-size: clamp(20px, 3vh, 25px);
+    font-size: clamp(18px, 3vh, 25px);
 }
     
 a:hover {
-    font-family: '', cursive;
+    font-family: 'Raleway', cursive;
     font-weight: bold;
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
     transition: all 1s ease-in-out;
-    font-size: clamp(20px, 3vh, 25px);
+    font-size: clamp(18px, 3vh, 25px);
     letter-spacing: 0.1rem;
 }
 
 a:active {
-    font-family: '', cursive;
+    font-family: 'Raleway', cursive;
     font-weight: bold;
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: clamp(20px, 3vh, 25px);
+    font-size: clamp(18px, 3vh, 25px);
     letter-spacing: 0.1rem;
 }
