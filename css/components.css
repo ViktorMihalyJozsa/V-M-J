@@ -53,8 +53,9 @@ p {
 \*  ========================================================================  */
 
 img {
-    width: clamp(240px, 30vw, 360px);
-    height: clamp(240px, 30vw, 360px);
+    width: clamp(240px, 30vh, 360px);
+    height: clamp(240px, 30vh, 360px);
+
     border-radius: 50%;
     padding: 1px;
     background-color: #666;
