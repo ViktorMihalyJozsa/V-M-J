@@ -23,7 +23,7 @@
 h1 {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: clamp(30px, 4vh, 40px);
+    font-size: 4.5vh;
     letter-spacing: 0.25rem;
 }
   
@@ -31,7 +31,7 @@ h2,
 .contact{
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: clamp(20px, 3vh, 25px);
+    font-size: 3vh;
     letter-spacing: 0.25rem;
 }
 
@@ -42,8 +42,8 @@ h2,
 p {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: clamp(15px, 2vh, 20px);
-    line-height: 110%;
+    font-size: 2vh;
+    line-height: 2.4vh;
     letter-spacing: 0.1rem;
 }
 
@@ -53,9 +53,8 @@ p {
 \*  ========================================================================  */
 
 img {
-    width: clamp(240px, 30vh, 360px);
-    height: clamp(240px, 30vh, 360px);
-
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     padding: 1px;
     background-color: #666;
@@ -68,6 +67,24 @@ img:hover {
     filter: grayscale(20%);
 }
 
+    @media (max-width: 1024px) {
+        img {
+            width: 30vh;
+            height: 30vh;
+        
+            border-radius: 50%;
+            padding: 1px;
+            background-color: #666;
+            transition: all 0.5s ease-in-out;
+            filter: grayscale(50%);
+        }
+        
+        img:hover {
+            transform: scale(1.4);
+            filter: grayscale(20%);
+        }
+    }
+
 
 /*  ========================================================================  *\
     R E F E R E N C E S
@@ -78,7 +95,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: rgba(198, 13, 13, 1);
-    font-size: clamp(18px, 3vh, 25px);
+    font-size: 3vh;
 }
     
 a:hover {
@@ -87,7 +104,7 @@ a:hover {
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
     transition: all 1s ease-in-out;
-    font-size: clamp(18px, 3vh, 25px);
+    font-size: 3vh;
     letter-spacing: 0.1rem;
 }
 
@@ -96,6 +113,6 @@ a:active {
     font-weight: bold;
     color: yellow;
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: clamp(18px, 3vh, 25px);
+    font-size: 3vh;
     letter-spacing: 0.1rem;
 }
