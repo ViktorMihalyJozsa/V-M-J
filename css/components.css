@@ -36,7 +36,8 @@ h2,
 }
 
 .contact {
-    color: rgba(198, 13, 13, 1);
+    color: rgba(255, 0, 0, .9);
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
 }
   
 p {
@@ -62,10 +63,10 @@ img {
     filter: grayscale(50%);
 }
 
-img:hover {
-    transform: scale(1.4);
-    filter: grayscale(20%);
-}
+    img:hover {
+        transform: scale(1.4);
+        filter: grayscale(20%);
+    }
 
     @media (max-width: 768px) {
         img {
@@ -83,25 +84,27 @@ a {
     font-family: 'Raleway', cursive;
     text-decoration: none;
     font-weight: bold;
-    color: rgba(198, 13, 13, 1);
-    font-size: 3vh;
-}
-    
-a:hover {
-    font-family: 'Raleway', cursive;
-    font-weight: bold;
-    color: yellow;
+    color: rgba(255, 0, 0, .9);
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    transition: all 1s ease-in-out;
     font-size: 3vh;
-    letter-spacing: 0.1rem;
 }
 
-a:active {
-    font-family: 'Raleway', cursive;
-    font-weight: bold;
-    color: yellow;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: 3vh;
-    letter-spacing: 0.1rem;
-}
+    a:hover {
+        font-family: 'Raleway', cursive;
+        font-weight: bold;
+        color: rgba(255, 255, 0, 1);
+        text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+        transition: all 0.5s ease-in-out;
+        font-size: 3vh;
+        letter-spacing: 0.1rem;
+    }
+
+    a:active {
+        font-family: 'Raleway', cursive;
+        font-weight: bold;
+        color: rgba(255, 255, 0, 1);
+        text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+        font-size: 3vh;
+        letter-spacing: 0.1rem;
+        box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
+    }
