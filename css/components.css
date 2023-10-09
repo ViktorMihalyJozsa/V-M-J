@@ -48,19 +48,19 @@ p {
     letter-spacing: 0.1vw;
 }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 1024px) {
         h1 {
-            font-size: 2.7vw;  /*  30px/10.8px=2.777vw  (1080px/100=10.8px=1vw)  */
+            font-size: 2.9vw;  /*  30px/10.24px=2.929vw  (1024px/100=10.24px=1vw)  */
         }
 
         h2,
         .contact{
-            font-size: 1.8vw;  /*  20px/10.8px=1.851vw  */
+            font-size: 1.95vw;  /*  20px/10.24px=1.953vw  */
         }
 
         p {
-            font-size: 1.3vw;  /*  14px/10.8px=1.296vw  */
-            line-height: 1.3vw;
+            font-size: 1.36vw;  /*  14px/10.24px=1.367vw  */
+            line-height: 1.36vw;
         }
     }
 
@@ -148,9 +148,9 @@ a {
         box-shadow: hsla(0, 0%, 0%, .8) 0.5vw 0.5vw 2vw;
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 1024px) {
         a, a:hover, a:active {
-            font-size: 1.8vw;  /*  20px/10.8px=1.851vw  (1080px/100=10.8px=1vw)  */
+            font-size: 1.95vw;  /*  20px/10.24px=1.953vw  (1024px/100=10.24px=1vw)  */
         }
     }
 
