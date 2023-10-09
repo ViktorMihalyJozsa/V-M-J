@@ -48,6 +48,21 @@ p {
     letter-spacing: 0.1rem;
 }
 
+    @media (max-width: 1024px) {
+        h1 {
+            font-size: 2.143rem;  /*  30px  */
+        }
+
+        h2,
+        .contact{
+            font-size: 1.429rem;  /*  20px  */
+        }
+
+        p {
+            font-size: 1rem;  /*  14px  */
+        }
+    }
+
     @media (max-width: 768px) {
         h1 {
             font-size: 2.143rem;  /*  30px  */
@@ -81,6 +96,13 @@ img {
     img:hover {
         transform: scale(1.4);
         filter: grayscale(20%);
+    }
+
+    @media (max-width: 1024) {
+        img {
+            width: 30vh;
+            height: 30vh;
+        }
     }
 
     @media (max-width: 768px) {
@@ -122,6 +144,12 @@ a {
         font-size: 2.143rem;  /*  30px  */
         letter-spacing: 0.1rem;
         box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
+    }
+
+    @media (max-width: 1024px) {
+        a, a:hover, a:active {
+            font-size: 1.429rem;  /*  20px  */
+        }
     }
 
     @media (max-width: 768px) {
