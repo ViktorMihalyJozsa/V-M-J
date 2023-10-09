@@ -48,7 +48,7 @@ p {
     letter-spacing: 0.1rem;
 }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1080px) {
         h1 {
             font-size: 2.143rem;  /*  30px  */
         }
@@ -98,7 +98,7 @@ img {
         filter: grayscale(20%);
     }
 
-    @media (max-width: 1024) {
+    @media (max-width: 1080) {
         img {
             width: 30vh;
             height: 30vh;
@@ -146,7 +146,7 @@ a {
         box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1080px) {
         a, a:hover, a:active {
             font-size: 1.429rem;  /*  20px  */
         }
