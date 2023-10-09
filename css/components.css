@@ -23,7 +23,7 @@
 h1 {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 4.5vh;
+    font-size: 3.214rem;  /*  45px  */
     letter-spacing: 0.25rem;
 }
   
@@ -31,7 +31,7 @@ h2,
 .contact{
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2.143rem;  /*  30px  */
     letter-spacing: 0.25rem;
 }
 
@@ -43,10 +43,25 @@ h2,
 p {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 2vh;
-    line-height: 2.4vh;
+    font-size: 1.429rem;  /*  20px  */
+    line-height: 1.429rem;
     letter-spacing: 0.1rem;
 }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2.143rem;  /*  30px  */
+        }
+
+        h2,
+        .contact{
+            font-size: 1.429rem;  /*  20px  */
+        }
+
+        p {
+            font-size: 1rem;  /*  14px  */
+        }
+    }
 
 
 /*  ========================================================================  *\
@@ -86,7 +101,7 @@ a {
     font-weight: bold;
     color: rgba(255, 0, 0, .9);
     text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: 3vh;
+    font-size: 2.143rem;  /*  30px  */
 }
 
     a:hover {
@@ -95,7 +110,7 @@ a {
         color: rgba(255, 255, 0, 1);
         text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
         transition: all 0.5s ease-in-out;
-        font-size: 3vh;
+        font-size: 2.143rem;  /*  30px  */
         letter-spacing: 0.1rem;
     }
 
@@ -104,7 +119,13 @@ a {
         font-weight: bold;
         color: rgba(255, 255, 0, 1);
         text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-        font-size: 3vh;
+        font-size: 2.143rem;  /*  30px  */
         letter-spacing: 0.1rem;
         box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
+    }
+
+    @media (max-width: 768px) {
+        a, a:hover, a:active {
+            font-size: 1.429rem;  /*  20px  */
+        }
     }
