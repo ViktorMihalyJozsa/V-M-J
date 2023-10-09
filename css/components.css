@@ -23,7 +23,7 @@
 h1 {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 1.56vw;  /*  30px/19.2px=1.562vw  (1920px/100=19.2px=1vw)  */
+    font-size: 2.34vw;  /*  45px/19.2px=2.3437vw  (1920px/100=19.2px=1vw)  */
     letter-spacing: 0.25vw;
 }
   
@@ -31,7 +31,7 @@ h2,
 .contact{
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 1vw;  /*  20px/19.2px=1.041vw  */
+    font-size: 1.56vw;  /*  30px/19.2px=1.5625vw  */
     letter-spacing: 0.25vw;
 }
 
@@ -43,8 +43,8 @@ h2,
 p {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 0.73vw;  /*  14px/19.2px=0.729vw  */
-    line-height: 1vw;
+    font-size: 1vw;  /*  20px/19.2px=1.0416vw  */
+    line-height: 1.5vw;  /*  150%  */
     letter-spacing: 0.1vw;
 }
 
@@ -76,7 +76,7 @@ p {
 
         p {
             font-size: 2.6vw;  /*  20px/7.68px=2.6041vw  */
-            line-height: 3.25vw; /*  125%  */
+            line-height: 3.9vw; /*  150%  */
         }
     }
 
@@ -125,7 +125,7 @@ a {
     font-weight: bold;
     color: rgba(255, 0, 0, .9);
     text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
-    font-size: 1vw;  /*  20px/19.2px=1.041vw  */
+    font-size: 1.56vw;  /*  30px/19.2px=1.5625vw  */
 }
 
     a:hover {
@@ -134,7 +134,7 @@ a {
         color: rgba(255, 255, 0, 1);
         text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
         transition: all 0.5s ease-in-out;
-        font-size: 1vw;  /*  20px/19.2px=1.041vw  */
+        font-size: 1.56vw;  /*  30px/19.2px=1.5625vw  */
         letter-spacing: 0.1vw;
     }
 
@@ -143,7 +143,7 @@ a {
         font-weight: bold;
         color: rgba(255, 255, 0, 1);
         text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
-        font-size: 1vw;  /*  20px/19.2px=1.041vw  */
+        font-size: 1.56vw;  /*  30px/19.2px=1.5625vw  */
         letter-spacing: 0.1vw;
         box-shadow: hsla(0, 0%, 0%, .8) 0.5vw 0.5vw 2vw;
     }
