@@ -23,59 +23,59 @@
 h1 {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 3.214rem;  /*  45px  */
-    letter-spacing: 0.25rem;
+    font-size: 2.3vw;  /*  45px/19.2px=2.343vw  (1920px/100=19.2px=1vw)  */
+    letter-spacing: 0.25vw;
 }
   
 h2,
 .contact{
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 2.143rem;  /*  30px  */
-    letter-spacing: 0.25rem;
+    font-size: 1.5vw;  /*  30px/19.2px=1.562vw  */
+    letter-spacing: 0.25vw;
 }
 
 .contact {
     color: rgba(255, 0, 0, .9);
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+    text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
 }
   
 p {
     font-family: 'Raleway', cursive;
     font-weight: bold;
-    font-size: 1.429rem;  /*  20px  */
-    line-height: 1.429rem;
-    letter-spacing: 0.1rem;
+    font-size: 1vw;  /*  20px/19.2px=1.041vw  */
+    line-height: 1vw;
+    letter-spacing: 0.1vw;
 }
 
     @media (max-width: 1080px) {
         h1 {
-            font-size: 2.7vw;  /*  30px/10.8=2.777  (1080px/100=10.8px=1vw)  */
+            font-size: 2.7vw;  /*  30px/10.8px=2.777vw  (1080px/100=10.8px=1vw)  */
         }
 
         h2,
         .contact{
-            font-size: 1.8vw;  /*  20px/10.8=1.851  */
+            font-size: 1.8vw;  /*  20px/10.8px=1.851vw  */
         }
 
         p {
-            font-size: 1.3vw;  /*  14px/10.8=1.296  */
+            font-size: 1.3vw;  /*  14px/10.8px=1.296vw  */
             line-height: 1.3vw;
         }
     }
 
     @media (max-width: 768px) {
         h1 {
-            font-size: 3.9vw;  /*  30px/7.68=3.906vw  (768px/100=7.68px=1vw)  */
+            font-size: 3.9vw;  /*  30px/7.68px=3.906vw  (768px/100=7.68px=1vw)  */
         }
 
         h2,
         .contact{
-            font-size: 2.6vw;  /*  20px/7.68=2.604vw  */
+            font-size: 2.6vw;  /*  20px/7.68px=2.604vw  */
         }
 
         p {
-            font-size: 1.8vw;  /*  14px/7.68=1.822vw  */
+            font-size: 1.8vw;  /*  14px/7.68px=1.822vw  */
             line-height: 1.8vw;
         }
     }
@@ -124,38 +124,38 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: rgba(255, 0, 0, .9);
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-    font-size: 2.143rem;  /*  30px  */
+    text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
+    font-size: 1.5vw;  /*  30px/19.2px=1.562vw  */
 }
 
     a:hover {
         font-family: 'Raleway', cursive;
         font-weight: bold;
         color: rgba(255, 255, 0, 1);
-        text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
+        text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
         transition: all 0.5s ease-in-out;
-        font-size: 2.143rem;  /*  30px  */
-        letter-spacing: 0.1rem;
+        font-size: 1.5vw;  /*  30px/19.2px=1.562vw  */
+        letter-spacing: 0.1vw;
     }
 
     a:active {
         font-family: 'Raleway', cursive;
         font-weight: bold;
         color: rgba(255, 255, 0, 1);
-        text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.75), -0.1rem -0.1rem #444;
-        font-size: 2.143rem;  /*  30px  */
-        letter-spacing: 0.1rem;
-        box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
+        text-shadow: 0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
+        font-size: 1.5vw;  /*  30px/19.2px=1.562vw  */
+        letter-spacing: 0.1vw;
+        box-shadow: hsla(0, 0%, 0%, .8) 0.5vw 0.5vw 2vw;
     }
 
     @media (max-width: 1080px) {
         a, a:hover, a:active {
-            font-size: 1.8vw;  /*  20px/10.8=1.851  (1080px/100=10.8px=1vw)  */
+            font-size: 1.8vw;  /*  20px/10.8px=1.851vw  (1080px/100=10.8px=1vw)  */
         }
     }
 
     @media (max-width: 768px) {
         a, a:hover, a:active {
-            font-size: 2.6vw;  /*  20px/7.68=2.604vw  */
+            font-size: 2.6vw;  /*  20px/7.68px=2.604vw  */
         }
     }
