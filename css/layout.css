@@ -34,15 +34,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows:    1fr 1fr 1fr;
     grid-template-areas: 
         "header"
         "main"
         "footer";
-    margin: 0 auto;
-    text-align: center;
-    width: min(1024px, 95vw);
-    height: 100vh;
+    margin:                0 auto;
+    text-align:            center;
+    width:                 min(1024px, 95vw);
+    height:                100vh;
 }
 
 
@@ -51,33 +51,33 @@
 \*  ========================================================================  */
 
 .header {
-    display: table;
-    text-align: center;
-    height: 75vh;
-    margin-top: 25vh;
-    padding: 0vh 5vh 0vh 5vh;
+    display:          table;
+    text-align:       center;
+    height:           75vh;
+    margin-top:       25vh;
+    padding:          0vh 5vh 0vh 5vh;
     background-color: hsla(0, 0%, 100%, .5);
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-top: 1px solid hsla(0, 0%, 30%, .8);
-    border-radius: 20vh 0vh 0vh 0vh;
+    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-top:       1px solid hsla(0, 0%, 30%, .8);
+    border-radius:    20vh 0vh 0vh 0vh;
 }
 
     .profile-image {
         margin-top: -20vh;
-        padding: 2vh 0vh 2vh 0vh;
+        padding:    2vh 0vh 2vh 0vh;
     }
 
     .section-headline,
     .section {
         border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
-        padding: 2vh 0vh 2vh 0vh;
+        padding:    2vh 0vh 2vh 0vh;
     }
 
     @media (max-width: 768px) {
         .header {
-            display: table;
+            display:    table;
             text-align: center;
-            height: 80vh;
+            height:     80vh;
             margin-top: 20vh;
         }
         
@@ -92,33 +92,33 @@
 
 .main {
     background-color: hsla(0, 0%, 100%, .5);
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 
     .student-countainer,
     .work-countainer {
-        display: flex;
+        display:   flex;
         flex-wrap: wrap;
-        gap: 4vh 2vh; /* row-gap column-gap */
+        gap:       4vh 2vh; /* row-gap column-gap */
     }
 
     .student-countainer {
         flex-direction: row-reverse;
-        margin: 5vh 5vh 2.5vh 5vh;
+        margin:         5vh 5vh 2.5vh 5vh;
     }
 
     .work-countainer {
         flex-direction: row;
-        margin: 2.5vh 5vh 5vh 5vh;
+        margin:         2.5vh 5vh 5vh 5vh;
     }
 
         .student-item,
         .work-item {
-            background: url('../image/item-background.png') no-repeat center center fixed;
-            text-align: center;
-            border: 1px solid #000000;
+            background:    url('#') no-repeat center center fixed;
+            text-align:    center;
+            border:        1px solid #000000;
             border-radius: 0vh 5vh 0vh 5vh;
-            padding: 1vh 2.5vh 1vh 2.5vh;
+            padding:       1vh 2.5vh 1vh 2.5vh;
         }
 
         .student-item:hover,
@@ -134,13 +134,13 @@
 
 .footer {
     background-color: hsla(0, 0%, 100%, .5);
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-bottom: 1px solid hsla(0, 0%, 30%, .8);
-    padding: 2vh 0vh 2vh 0vh;
-    border-radius: 0vh 0vh 20vh 0vh;
+    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-bottom:    1px solid hsla(0, 0%, 30%, .8);
+    padding:          2vh 0vh 2vh 0vh;
+    border-radius:    0vh 0vh 20vh 0vh;
 }
 
     ul, li {
-    display: inline;
+    display:        inline;
     letter-spacing: 0.5rem;
     }
