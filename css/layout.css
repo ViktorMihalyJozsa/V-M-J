@@ -53,9 +53,12 @@
 .header {
     display:          table;
     text-align:       center;
+
+    width:            auto;
     height:           75vh;
     margin-top:       25vh;
     padding:          0vh 5vh 0vh 5vh;
+
     background-color: hsla(0, 0%, 100%, .5);
     box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
     border-top:       1px solid hsla(0, 0%, 30%, .8);
@@ -75,14 +78,29 @@
 
     @media (max-width: 768px) {
         .header {
-            display:    table;
-            text-align: center;
-            height:     80vh;
-            margin-top: 20vh;
+            display:          table;
+            text-align:       center;
+            
+            width:            auto;
+            height:           80vh;
+            margin-top:       20vh;
+            padding:          0vh 5vh 0vh 5vh;
+            
+            background-color: hsla(0, 0%, 100%, .5);
+            box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
+            border-top:       1px solid hsla(0, 0%, 30%, .8);
+            border-radius:    20vh 0vh 0vh 0vh;
         }
-        
+            
             .profile-image {
                 margin-top: -16vh;
+                padding:    2vh 0vh 2vh 0vh;
+            }
+            
+            .section-headline,
+            .section {
+                border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
+                padding:    2vh 0vh 2vh 0vh;
             }
     }
 

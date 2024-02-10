@@ -45,8 +45,8 @@ h2,
 p {
     font-family:    'Raleway', cursive;
     font-weight:    bold;
-    font-size:      clamp(14px, 2vh, 20px);  /*  Mobil , Tablet , FHD  */
-    line-height:    clamp(15.4px, 2.2vh, 22px);  /*  125%  */
+    font-size:      clamp(14px, 1vw, 20px);      /*  Mobil , Tablet , FHD  */
+    line-height:    clamp(15.4px, 1.1vw, 22px);  /*  110%  */
     letter-spacing: 0.1vw;
 }
 
