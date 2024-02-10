@@ -32,3 +32,11 @@ html, body {
         -ms-overflow-style: none;    /* IE and Edge */
         scrollbar-width:    none;    /* Firefox */
     }
+
+@media screen and (max-width: 768px) {
+    body {
+        width:       100vw;   /* A viewport szélessége */
+        height:      100vh;   /* A viewport magassága */
+        overflow-x:  hidden;  /* Vízszintes görgetés letiltása */
+    }
+}
