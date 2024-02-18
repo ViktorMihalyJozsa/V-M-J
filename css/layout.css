@@ -40,6 +40,8 @@
         "header"
         "main"
         "footer";
+    width:                  min(1024px, 90vw);
+    height:                 100vh;
 }
 
 
