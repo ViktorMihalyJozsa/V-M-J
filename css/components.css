@@ -24,8 +24,8 @@ h1 {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
     font-size:       clamp(27px, 3vw, 45px);  /*  Mobil (786px) = min.30px  ;
-                                                 Tablet (1024px) = 1024px/100=10.24px=1vw >> 3vw=3*10.24px=30.72px  ;
-                                                 FHD (1920px) = max.45px  */
+                                                  Tablet (1024px) = 1024px/100=10.24px=1vw >> 3vw=3*10.24px=30.72px  ;
+                                                  FHD (1920px) = max.45px  */
     letter-spacing:  0.25vw;
 }
   
@@ -37,9 +37,9 @@ h2,
     letter-spacing:  0.25vw;
 }
 
-  .contact {
-      color:        rgba(255, 0, 0, .9);
-      text-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
+    .contact {
+        color:        rgba(255, 0, 0, .9);
+        text-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
 }
   
 p {
@@ -70,19 +70,19 @@ img {
         filter:    grayscale(20%);
     }
 
-    @media (max-width: 1025) {
-        img {
-            width:  30vh;
-            height: 30vh;
-        }
+@media (max-width: 1025) {
+    img {
+        width:  30vh;
+        height: 30vh;
     }
+}
 
-    @media (max-width: 768px) {
-        img {
-            width:  25vh;
-            height: 25vh;
-        }
+@media (max-width: 768px) {
+    img {
+        width:  25vh;
+        height: 25vh;
     }
+}
 
 
 /*  ========================================================================  *\

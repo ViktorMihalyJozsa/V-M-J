@@ -11,6 +11,7 @@
     *         profile-image;
     *         section-headline:
     *         section;
+    *     @media (max-width: 768px);
     *
     * MAIN
     *     main:
@@ -33,16 +34,12 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:    1fr 1fr 1fr;
+    grid-template-columns:  1fr;
+    grid-template-rows:     auto;
     grid-template-areas: 
         "header"
         "main"
         "footer";
-    margin:                0 auto;
-    text-align:            center;
-    width:                 min(1024px, 95vw);
-    height:                100vh;
 }
 
 
@@ -50,74 +47,80 @@
     H E A D E R
 \*  ========================================================================  */
 
-.header {
-    display:          table;
-    text-align:       center;
+header {
+    grid-area:         header;
 
-    width:            auto;
-    height:           75vh;
-    margin-top:       25vh;
-    padding:          0vh 5vh 0vh 5vh;
+    display:           table;
+    text-align:        center;
 
-    background-color: hsla(0, 0%, 100%, .5);
-    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-top:       1px solid hsla(0, 0%, 30%, .8);
-    border-radius:    20vh 0vh 0vh 0vh;
+    width:             auto;
+    height:            75vh;
+    margin-top:        25vh;
+    padding:           0vh 5vh 0vh 5vh;
+
+    background-color:  hsla(0, 0%, 100%, .5);
+    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-top:        1px solid hsla(0, 0%, 30%, .8);
+    border-radius:     20vh 0vh 0vh 0vh;
 }
 
     .profile-image {
-        margin-top: -20vh;
-        padding:    2vh 0vh 2vh 0vh;
+        margin-top:  -20vh;
+        padding:     2vh 0vh 2vh 0vh;
     }
 
     .section-headline,
     .section {
-        border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
-        padding:    2vh 0vh 2vh 0vh;
+        border-top:  0.2vh solid hsla(0, 100%, 0%, 0.8);
+        padding:     2vh 0vh 2vh 0vh;
     }
 
-    @media (max-width: 768px) {
-        .header {
-            display:          table;
-            text-align:       center;
+@media (max-width: 768px) {
+    header {
+        grid-area:         header;
+
+        display:           table;
+        text-align:        center;
             
-            width:            auto;
-            height:           80vh;
-            margin-top:       20vh;
-            padding:          0vh 5vh 0vh 5vh;
+        width:             auto;
+        height:            80vh;
+        margin-top:        20vh;
+        padding:           0vh 5vh 0vh 5vh;
             
-            background-color: hsla(0, 0%, 100%, .5);
-            box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
-            border-top:       1px solid hsla(0, 0%, 30%, .8);
-            border-radius:    20vh 0vh 0vh 0vh;
-        }
-            
-            .profile-image {
-                margin-top: -16vh;
-                padding:    2vh 0vh 2vh 0vh;
-            }
-            
-            .section-headline,
-            .section {
-                border-top: 0.2vh solid hsla(0, 100%, 0%, 0.8);
-                padding:    2vh 0vh 2vh 0vh;
-            }
+        background-color:  hsla(0, 0%, 100%, .5);
+        box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
+        border-top:        1px solid hsla(0, 0%, 30%, .8);
+        border-radius:     20vh 0vh 0vh 0vh;
     }
+            
+    .profile-image {
+        margin-top:  -16vh;
+        padding:     2vh 0vh 2vh 0vh;
+    }
+            
+    .section-headline,
+    .section {
+        border-top:  0.2vh solid hsla(0, 100%, 0%, 0.8);
+        padding:     2vh 0vh 2vh 0vh;
+    }
+}
 
 /*  ========================================================================  *\
     M A I N
 \*  ========================================================================  */
 
-.main {
-    background-color: hsla(0, 0%, 100%, .5);
-    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
+main {
+    grid-area:         main;
+
+    background-color:  hsla(0, 0%, 100%, .5);
+    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 
     .student-countainer,
     .work-countainer {
-        display:   flex;
-        flex-wrap: wrap;
-        gap:       4vh 2vh; /* row-gap column-gap */
+        display:    flex;
+        flex-wrap:  wrap;
+        gap:        4vh 2vh;  /* row-gap column-gap */
     }
 
     .student-countainer {
@@ -132,17 +135,18 @@
 
         .student-item,
         .work-item {
-            background:    url('#') no-repeat center center fixed;
-            text-align:    center;
-            border:        1px solid #000000;
-            border-radius: 0vh 5vh 0vh 5vh;
-            padding:       1vh 2.5vh 1vh 2.5vh;
+            background-color:  rgba(0, 0, 0, 0.125);
+            background-image:  url('#') no-repeat center center fixed;
+            text-align:        center;
+            border:            1px solid #000000;
+            border-radius:     0vh 5vh 0vh 5vh;
+            padding:           1vh 2.5vh 1vh 2.5vh;
         }
 
         .student-item:hover,
         .work-item:hover {
-            box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
-            transition: all 0.5s ease-out;
+            box-shadow:  hsla(0, 0%, 0%, .8) 10px 10px 40px;
+            transition:  all 0.5s ease-out;
         }
 
 
@@ -150,15 +154,17 @@
     F O O T E R
 \*  ========================================================================  */
 
-.footer {
-    background-color: hsla(0, 0%, 100%, .5);
-    box-shadow:       hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-bottom:    1px solid hsla(0, 0%, 30%, .8);
-    padding:          2vh 0vh 2vh 0vh;
-    border-radius:    0vh 0vh 20vh 0vh;
+footer {
+    grid-area:         footer;
+
+    background-color:  hsla(0, 0%, 100%, .5);
+    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    border-bottom:     1px solid hsla(0, 0%, 30%, .8);
+    border-radius:     0vh 0vh 20vh 0vh;
+    padding:           2vh 0vh 2vh 0vh;
 }
 
     ul, li {
-    display:        inline;
-    letter-spacing: 0.5rem;
+    display:         inline;
+    letter-spacing:  0.5rem;
     }
