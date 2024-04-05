@@ -33,7 +33,7 @@
 \*  ========================================================================  */
 
 .grid-container {
-    display: grid;
+    display:                grid;
     grid-template-columns:  1fr;
     grid-template-rows:     auto;
     grid-template-areas: 
@@ -41,7 +41,7 @@
         "main"
         "footer";
     width:                  min(1024px, 95vw);
-    height:                 100vh;
+    height:                 auto;
 }
 
 
@@ -50,61 +50,61 @@
 \*  ========================================================================  */
 
 header {
-    grid-area:         header;
+    grid-area:      header;
 
-    display:           table;
-    text-align:        center;
+    display:        table;
+    text-align:     center;
 
-    width:             auto;
-    height:            75vh;
-    margin-top:        25vh;
-    padding:           0vh 5vh 0vh 5vh;
+    width:          auto;
+    height:         75vh;
+    margin-top:     25vh;
+    padding:        0vh 5vh 0vh 5vh;
 
-    background-color:  hsla(0, 0%, 100%, .5);
-    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-top:        1px solid hsla(0, 0%, 30%, .8);
-    border-radius:     20vh 0vh 0vh 0vh;
+    border-top:     0.2vh solid rgba(0, 0, 0, 0.5);
+    border-radius:  25vh 0vh 0vh 0vh;
 }
 
     .profile-image {
+        width:       auto;
+        height:      40vh;
         margin-top:  -20vh;
         padding:     2vh 0vh 2vh 0vh;
     }
 
     .section-headline,
     .section {
-        border-top:  0.2vh solid hsla(0, 100%, 0%, 0.8);
+        border-top:  0.2vh solid rgba(0, 0, 0, 0.5);
         padding:     2vh 0vh 2vh 0vh;
     }
 
 @media (max-width: 768px) {
     header {
-        grid-area:         header;
+        grid-area:      header;
 
-        display:           table;
-        text-align:        center;
+        display:        table;
+        text-align:     center;
             
-        width:             auto;
-        height:            80vh;
-        margin-top:        20vh;
-        padding:           0vh 5vh 0vh 5vh;
+        width:          auto;
+        height:         75vh;
+        margin-top:     25vh;
+        padding:        0vh 5vh 0vh 5vh;
             
-        background-color:  hsla(0, 0%, 100%, .5);
-        box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
-        border-top:        1px solid hsla(0, 0%, 30%, .8);
-        border-radius:     20vh 0vh 0vh 0vh;
+        border-top:     0.2vh solid rgba(0, 0, 0, 0.5);
+        border-radius:  15vh 0vh 0vh 0vh;
     }
-            
-    .profile-image {
-        margin-top:  -16vh;
-        padding:     2vh 0vh 2vh 0vh;
-    }
-            
-    .section-headline,
-    .section {
-        border-top:  0.2vh solid hsla(0, 100%, 0%, 0.8);
-        padding:     2vh 0vh 2vh 0vh;
-    }
+    
+        .profile-image {
+            width:       auto;
+            height:      30vh;
+            margin-top:  -20vh;
+            padding:     2vh 0vh 2vh 0vh;
+        }
+    
+        .section-headline,
+        .section {
+            border-top:  0.2vh solid rgba(0, 0, 0, 0.5);
+            padding:     2vh 0vh 2vh 0vh;
+        }
 }
 
 /*  ========================================================================  *\
@@ -113,41 +113,43 @@ header {
 
 main {
     grid-area:         main;
-
-    background-color:  hsla(0, 0%, 100%, .5);
-    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 
     .student-countainer,
     .work-countainer {
-        display:    flex;
-        flex-wrap:  wrap;
-        gap:        4vh 2vh;  /* row-gap column-gap */
+        display:     flex;
+        flex-wrap:   wrap;
+        gap:         4vh 2vh;  /* row-gap column-gap */
+
+        border-top:  0.2vh solid rgba(0, 0, 0, 0.5);
+        padding:     5vh 0vh 5vh 0vh;
     }
 
     .student-countainer {
-        flex-direction: row-reverse;
-        margin:         5vh 5vh 2.5vh 5vh;
+        flex-direction:  row-reverse;
+        margin:          0vh 5vh 0vh 5vh;
     }
 
     .work-countainer {
-        flex-direction: row;
-        margin:         2.5vh 5vh 5vh 5vh;
+        flex-direction:  row;
+        margin:          0vh 5vh 0vh 5vh;
     }
 
         .student-item,
         .work-item {
-            background-color:  rgba(0, 0, 0, 0.125);
-            background-image:  url('#') no-repeat center center fixed;
-            text-align:        center;
-            border:            1px solid #000000;
-            border-radius:     0vh 5vh 0vh 5vh;
-            padding:           1vh 2.5vh 1vh 2.5vh;
+            /*background-color:  rgba(0, 0, 0, 0.05);*/
+            background-image:   url('../image/button.jpg');
+            background-repeat:  no-repeat;
+            background-size:    cover;
+            text-align:         center;
+            border:             1px solid rgba(0, 0, 0, 0.8);
+            border-radius:      0vh 5vh 0vh 5vh;
+            padding:            1vh 2.5vh 1vh 2.5vh;
         }
 
         .student-item:hover,
         .work-item:hover {
-            box-shadow:  hsla(0, 0%, 0%, .8) 10px 10px 40px;
+            box-shadow:  rgba(0, 0, 0, 0.8) 1vh 1vh 2vh;
             transition:  all 0.5s ease-out;
         }
 
@@ -157,16 +159,19 @@ main {
 \*  ========================================================================  */
 
 footer {
-    grid-area:         footer;
+    grid-area:      footer;
 
-    background-color:  hsla(0, 0%, 100%, .5);
-    box-shadow:        hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    border-bottom:     1px solid hsla(0, 0%, 30%, .8);
-    border-radius:     0vh 0vh 20vh 0vh;
-    padding:           2vh 0vh 2vh 0vh;
+    border-bottom:  0.2vh solid rgba(0, 0, 0, 0.5);
+    border-radius:  0vh 0vh 12vh 0vh;
 }
 
-    ul, li {
-    display:         inline;
-    letter-spacing:  0.5rem;
+    .footer {
+        border-top:  0.2vh solid rgba(0, 0, 0, 0.5);
+        margin:      0vh 5vh 0vh 5vh;
+        padding:     2vh 0vh 2vh 0vh;
     }
+
+        ul, li {
+            display:         inline;
+            letter-spacing:  0.5rem;
+        }

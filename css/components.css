@@ -23,9 +23,7 @@
 h1 {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       clamp(27px, 3vw, 45px);  /*  Mobil (786px) = min.30px  ;
-                                                  Tablet (1024px) = 1024px/100=10.24px=1vw >> 3vw=3*10.24px=30.72px  ;
-                                                  FHD (1920px) = max.45px  */
+    font-size:       6vh;
     letter-spacing:  0.25vw;
 }
   
@@ -51,50 +49,51 @@ p {
 \*  ========================================================================  */
 
 img {
-    width:             20vw;
-    height:            20vw;
+    width:             40vh;
+    height:            40vh;
     border-radius:     50%;
-    padding:           1px;
-    background-color:  #666;
+    padding:           0.1vh;
+    background-color:  rgba(0, 0, 0, 0.5);
     transition:        all 0.5s ease-in-out;
-    filter:            grayscale(75%);
+    filter:            grayscale(80%);
 }
 
     img:hover {
-        transform:  scale(1.4);
+        transform:  scale(1.3);
         filter:     grayscale(20%);
     }
 
 @media (max-width: 1025) {
     img {
-        width:             30vh;
-        height:            30vh;
+        width:             40vh;
+        height:            40vh;
         border-radius:     50%;
-        padding:           1px;
-        background-color:  #666;
+        padding:           0.1vh;
+        background-color:  rgba(0, 0, 0, 0.5);
         transition:        all 0.5s ease-in-out;
-        filter:            grayscale(75%);
+        filter:            grayscale(80%);
     }
     
         img:hover {
-            transform:  scale(1.4);
+            transform:  scale(1.3);
             filter:     grayscale(20%);
         }
 }
 
 @media (max-width: 768px) {
     img {
-        width:             25vh;
-        height:            25vh;
+        width:             30vh;
+        height:            30vh;
+        padding:           0.1vh;
+
         border-radius:     50%;
-        padding:           1px;
-        background-color:  #666;
+        background-color:  rgba(0, 0, 0, 0.5);
         transition:        all 0.5s ease-in-out;
-        filter:            grayscale(75%);
+        filter:            grayscale(80%);
     }
     
         img:hover {
-            transform:  scale(1.4);
+            transform:  scale(1.3);
             filter:     grayscale(20%);
         }
 }
@@ -109,7 +108,6 @@ a {
     text-decoration:  none;
     font-weight:      bold;
     color:            rgba(0, 0, 0, .9);
-    /*text-shadow:      0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;*/
     font-size:        clamp(18px, 2vw, 30px);  /*  Mobil , Tablet , FHD  */
 }
 
