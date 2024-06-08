@@ -23,24 +23,24 @@
 h1 {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       clamp(36px, 6.66vh, 72px);  /*  Mobil , Tablet , FHD  */
-    letter-spacing:  0.25vw;
+    font-size:       6.666vh;  /*  Mobil , Tablet , FHD  */
+    letter-spacing:  0.463vh;
 }
   
 h2,
 .contact {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       clamp(18px, 3.33vh, 36px);  /*  Mobil , Tablet , FHD  */
-    letter-spacing:  0.5vw;
+    font-size:       3.333vh;  /*  Mobil , Tablet , FHD  */
+    letter-spacing:  0.185vh;
 }
   
 p {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       clamp(11px, 2.037vh, 22px);      /*  Mobil , Tablet , FHD  */
-    line-height:     clamp(13.2px, 2.44vh, 26.4px);  /*  110%  */
-    letter-spacing:  0.1vw;
+    font-size:       2.037vh;  /*  Mobil , Tablet , FHD  */
+    line-height:     2.240vh;  /*  110%  */
+    letter-spacing:  0.185vh;
 }
 
 
@@ -53,27 +53,27 @@ a, h3 {
     text-decoration:  none;
     font-weight:      bold;
     color:            rgba(0, 0, 0, .9);
-    font-size:        clamp(16px, 2.963vh, 32px);  /*  Mobil , Tablet , FHD  */
+    font-size:        2.777vh;  /*  Mobil , Tablet , FHD  */
 }
 
     a:hover {
         font-family:     'Raleway', cursive;
         font-weight:     bold;
         color:           rgba(255, 255, 0, 0.75);
-        text-shadow:     0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
+        text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
         transition:      all 0.5s ease-in-out;
-        font-size:       clamp(18px, 3.33vh, 36px);  /*  Mobil , Tablet , FHD  */
-        letter-spacing:  0.1vw;
+        font-size:       2.777vh;  /*  Mobil , Tablet , FHD  */
+        letter-spacing:  0.185vh;
     }
 
     a:active {
         font-family:     'Raleway', cursive;
         font-weight:     bold;
         color:           rgba(255, 255, 0, 0.75);
-        text-shadow:     0.1vw 0.1vw rgba(0, 0, 0, 0.75), -0.1vw -0.1vw #444;
-        font-size:       clamp(18px, 3.33vh, 36px);  /*  Mobil , Tablet , FHD  */
-        letter-spacing:  0.1vw;
-        box-shadow:      hsla(0, 0%, 0%, .8) 0.5vw 0.5vw 2vw;
+        text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
+        font-size:       2.777vh;  /*  Mobil , Tablet , FHD  */
+        letter-spacing:  0.185vh;
+        box-shadow:      hsla(0, 0%, 0%, .8) 0.926vh 0.926vh 3.703vh;
     }
 
 
