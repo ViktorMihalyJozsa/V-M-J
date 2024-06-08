@@ -143,8 +143,8 @@ main {
             background-size:    cover;
             text-align:         center;
             border:             1px solid rgba(0, 0, 0, 0.8);
-            border-radius:      0vh 5vh 0vh 5vh;
-            padding:            0.5vh 2.5vh 0.5vh 2.5vh;
+            border-radius:      0vh 4.5vh 0vh 4.5vh;
+            padding:            0.5vh 1.5vh 0.5vh 1.5vh;
         }
 
         .student-item:hover,
