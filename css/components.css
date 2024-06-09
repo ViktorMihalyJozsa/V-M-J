@@ -23,7 +23,7 @@
 h1 {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       6.666vh;  /*  Mobil , Tablet , FHD  */
+    font-size:       clamp(36px, 6.666vh, 72px);  /*  Mobil , Tablet , FHD  */
     letter-spacing:  0.463vh;
 }
   
