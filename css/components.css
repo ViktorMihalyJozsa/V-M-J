@@ -23,7 +23,7 @@
 h1 {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       clamp(36px, 6.666vh, 72px);  /*  Mobil , Tablet , FHD  */
+    font-size:       6.666vh;  /*  72px  */
     letter-spacing:  0.463vh;
 }
   
@@ -31,16 +31,42 @@ h2,
 .contact {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       3.333vh;  /*  Mobil , Tablet , FHD  */
+    font-size:       3.333vh;  /*  36px  */
     letter-spacing:  0.185vh;
 }
   
 p {
     font-family:     'Raleway', cursive;
     font-weight:     bold;
-    font-size:       2.037vh;  /*  Mobil , Tablet , FHD  */
+    font-size:       2.037vh;  /*  22px  */
     line-height:     2.240vh;  /*  110%  */
     letter-spacing:  0.185vh;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-family:     'Raleway', cursive;
+        font-weight:     bold;
+        font-size:       4.444vh;  /*  48px  */
+        letter-spacing:  0.463vh;
+    }
+      
+    h2,
+    .contact {
+        font-family:     'Raleway', cursive;
+        font-weight:     bold;
+        font-size:       2.222vh;  /*  24px  */
+        letter-spacing:  0.185vh;
+    }
+      
+    p {
+        font-family:     'Raleway', cursive;
+        font-weight:     bold;
+        font-size:       1.296vh;  /*  14px  */
+        line-height:     1.426vh;  /*  110%  */
+        letter-spacing:  0.185vh;
+    }    
 }
 
 
@@ -53,7 +79,7 @@ a, h3 {
     text-decoration:  none;
     font-weight:      bold;
     color:            rgba(0, 0, 0, .9);
-    font-size:        2.777vh;  /*  Mobil , Tablet , FHD  */
+    font-size:        2.777vh;  /* 30px */
 }
 
     a:hover {
@@ -62,7 +88,7 @@ a, h3 {
         color:           rgba(255, 255, 0, 0.75);
         text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
         transition:      all 0.5s ease-in-out;
-        font-size:       2.777vh;  /*  Mobil , Tablet , FHD  */
+        font-size:       2.777vh;  /* 30px */
         letter-spacing:  0.185vh;
     }
 
@@ -71,10 +97,41 @@ a, h3 {
         font-weight:     bold;
         color:           rgba(255, 255, 0, 0.75);
         text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
-        font-size:       2.777vh;  /*  Mobil , Tablet , FHD  */
+        font-size:       2.777vh;  /* 30px */
         letter-spacing:  0.185vh;
         box-shadow:      hsla(0, 0%, 0%, .8) 0.926vh 0.926vh 3.703vh;
     }
+
+    
+@media (max-width: 768px) {
+    a, h3 {
+        font-family:      'Raleway', cursive;
+        text-decoration:  none;
+        font-weight:      bold;
+        color:            rgba(0, 0, 0, .9);
+        font-size:        1.852vh;  /* 20px */
+    }
+    
+        a:hover {
+            font-family:     'Raleway', cursive;
+            font-weight:     bold;
+            color:           rgba(255, 255, 0, 0.75);
+            text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
+            transition:      all 0.5s ease-in-out;
+            font-size:       1.852vh;  /* 20px */
+            letter-spacing:  0.185vh;
+        }
+    
+        a:active {
+            font-family:     'Raleway', cursive;
+            font-weight:     bold;
+            color:           rgba(255, 255, 0, 0.75);
+            text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
+            font-size:       1.852vh;  /* 20px */
+            letter-spacing:  0.185vh;
+            box-shadow:      hsla(0, 0%, 0%, .8) 0.926vh 0.926vh 3.703vh;
+        }
+}
 
 
 /*  ========================================================================  *\
@@ -96,6 +153,7 @@ img {
         filter:     grayscale(20%);
     }
 
+
 @media (max-width: 1025) {
     img {
         width:             40vh;
@@ -112,6 +170,7 @@ img {
             filter:     grayscale(20%);
         }
 }
+
 
 @media (max-width: 768px) {
     img {
