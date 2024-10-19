@@ -1,6 +1,6 @@
 window.addEventListener("orientationchange", function() {
     if (window.orientation === 90 || window.orientation === -90) {
-        alert("Kérlek, függőlegesen tartsd a telefont!");
+        alert("Please turn the phone back to portrait view.");
     }
     }, false);
 
