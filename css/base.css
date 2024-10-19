@@ -8,8 +8,7 @@
     *     html, body;                   (background-image)
     *         body::-webkit-scrollbar;  (scrollbar)
     *         body;                     (scrollbar)
-    *     @media screen and (max-width: 1025px);
-    *     @media screen and (max-width: 1025px);
+    *     @media screen and...;
 
 \*  ========================================================================  */
 
