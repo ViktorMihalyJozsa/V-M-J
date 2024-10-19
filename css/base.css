@@ -38,3 +38,30 @@ html, body {
         -ms-overflow-style:  none;    /* IE and Edge */
         scrollbar-width:     none;    /* Firefox */
     }
+
+    
+/*  ========================================================================  *\
+    H T M L ,  B O D Y  -  @ m e d i a
+\*  ========================================================================  */
+
+/* Álló nézet stílusok */
+@media screen and (orientation: portrait) {
+    body {
+        display: block;
+    }
+}
+    
+/* Fektetett nézet tiltása */
+@media screen and (orientation: landscape) {
+    body {
+        display: none;
+    }
+    
+        body::before {
+            content: "Kérlek, fordítsd vissza a telefont függőleges nézetbe!";
+            display: block;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50vh;
+        }
+}
