@@ -18,10 +18,8 @@ header {
     margin-bottom:  5vh;
     padding:        0 auto;
 
-    background-color:  lime;
-
-    border-top:     0.555vh solid rgba(0, 0, 0, 0.5);  /*  4px  */
-    border-bottom:  0.555vh solid rgba(0, 0, 0, 0.5);  /*  4px  */
+    border-top:     0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
+    border-bottom:  0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
     border-radius:  0vh 25vh 0vh 25vh;
 }
 
@@ -80,9 +78,9 @@ header {
 
         width:          auto;
         height:         auto;
-        padding:        4vh 2vh 6vh 2vh;
+        padding:        4vh 2vh 4vh 2vh;
 
-        border-top:     0.2vh solid rgba(0, 0, 0, 0.5);
+        border-top:     0.2vh solid rgba(0, 0, 0, 0.625);
     }
 
 
@@ -91,21 +89,33 @@ header {
 \*  ========================================================================  */
 
 main {
-    grid-area:  main;
+    grid-area:      main;
 
-    width:      60vw;
-    height:     auto;
-    margin:     0 auto;
-    padding:    2vh 2vh 6vh 2vh;
+    width:          calc(60vw - 4vh);
+    height:         auto;
+    margin-bottom:  5vh;
+    padding:        2vh 2vh 2vh 2vh;
+
+    border-top:     0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
+    border-bottom:  0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
+    border-radius:  25vh 0vh 25vh 0vh;
 }
 
-    .student-item, 
-    .work-item {
-        width:    100%;
+    .student-countainer,
+    .work-countainer {
+        width:    auto;
         height:   auto;
         margin:   0 auto;
-        padding:  0vh 2vh 0vh 2vh;
+        padding:  2vh 2vh 2vh 2vh;
     }
+
+        .student-item, 
+        .work-item {
+            width:    auto;
+            height:   auto;
+            margin:   0 auto;
+            padding:  0vh 2vh 0vh 2vh;  
+        }
 
 
 /*  ========================================================================  *\
