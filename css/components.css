@@ -12,7 +12,7 @@ h1 {
     font-size:       6.666vh;  /*  48px  */
     line-height:     6.666vh;  /*  100%  */
     letter-spacing:  0.416vh;  /*  3px   */
-    text-shadow:     -0.277vh -0.277vh green, 0.277vh 0.277vh 0.277vh black;
+    text-shadow:     -0.277vh -0.277vh green, 0.277vh 0.277vh 0.277vh rgba(0, 0, 0, 0.75);
 }
   
 h2,
@@ -48,7 +48,7 @@ a {
     text-decoration:  none;
     font-size:        2.777vh;  /*  20px  */
     line-height:      3.471vh;  /*  125%  */
-    letter-spacing:   0.277vh;     /*  2px   */
+    letter-spacing:   0.277vh;  /*  2px   */
     color:            darkcyan;
 }
 
@@ -69,3 +69,63 @@ a {
 
         box-shadow:      hsla(0, 0%, 0%, .8) 0.926vh 0.926vh 3.703vh;
     }
+
+
+/*  ========================================================================  *\
+    @ M E D I A  Q U E R I E S  ~  7 6 8 p x
+\*  ========================================================================  */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size:       5vh;      /*  36px  */
+        line-height:     5vh;      /*  100%  */
+        letter-spacing:  0.416vh;  /*  3px   */
+        text-shadow:     -0.277vh -0.277vh green, 0.277vh 0.277vh 0.277vh rgba(0, 0, 0, 0.75);
+    }
+      
+    h2,
+    .contact {
+        font-size:       2.5vh;    /*  18px  */
+        line-height:     2.5vh;    /*  100%  */
+        letter-spacing:  0.138vh;  /*  1px   */
+    }
+    
+    h3 {
+        font-size:       2.222vh;  /*  16px  */
+        line-height:     2.777vh;  /*  125%  */
+        letter-spacing:  0.277vh;  /*  2px   */
+    }
+      
+    p {
+        font-size:       1.944vh;  /*  14px  */
+        line-height:     2.138vh;  /*  110%  */
+        letter-spacing:  0.138vh;  /*  1px   */
+    }
+    
+    a {
+        cursor:           pointer;
+        text-decoration:  none;
+        font-size:        2.222vh;  /*  16px  */
+        line-height:      2.777vh;  /*  125%  */
+        letter-spacing:   0.277vh;  /*  2px   */
+        color:            darkcyan;
+    }
+    
+        a:hover {
+            font-size:       2.777vh;  /*  20px  */
+            letter-spacing:  0.416vh;  /*  3px   */
+            color:           rgba(255, 255, 0, 0.75);
+            text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
+    
+            transition:      all 1s ease-in-out;
+        }
+    
+        a:active {
+            font-size:       2.777vh;  /*  20px  */
+            letter-spacing:  0.416vh;  /*  3px   */
+            color:           rgba(255, 255, 0, 0.75);
+            text-shadow:     0.185vh 0.185vh rgba(0, 0, 0, 0.75), -0.185vh -0.185vh #444;
+    
+            box-shadow:      hsla(0, 0%, 0%, .8) 0.926vh 0.926vh 3.703vh;
+        }
+}
