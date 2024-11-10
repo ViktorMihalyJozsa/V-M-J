@@ -18,8 +18,8 @@ header {
     margin-bottom:  5vh;
     padding:        0 auto;
 
-    border-top:     0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
-    border-bottom:  0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
+    border-top:     0.555vh solid darkslateblue;  /*  4px  */
+    border-bottom:  0.555vh solid darkslateblue;  /*  4px  */
     border-radius:  0vh 25vh 0vh 25vh;
 }
 
@@ -75,14 +75,14 @@ header {
     .section {
         position:       absolute;
         top:            30vh;
-        left:           4vh;
-        right:          4vh;
+        left:           6vh;
+        right:          6vh;
 
         width:          auto;
         height:         auto;
-        padding:        4vh 2vh 4vh 2vh;
+        padding:        4vh 0vh 4vh 0vh;
 
-        border-top:     0.2vh solid rgba(0, 0, 0, 0.625);
+        border-top:     0.2vh solid darkslateblue;
     }
 
 
@@ -101,12 +101,12 @@ aside {
 }
 
 main, aside {
-    width:          calc(60vw - 8vh);
+    width:          calc(60vw - 12vh);
     height:         auto;
     margin-bottom:  5vh;
-    padding:        4vh 4vh 4vh 4vh;
-    border-top:     0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
-    border-bottom:  0.555vh solid rgba(0, 0, 0, 0.625);  /*  4px  */
+    padding:        4vh 6vh 4vh 6vh;
+    border-top:     0.555vh solid darkslateblue;  /*  4px  */
+    border-bottom:  0.555vh solid darkslateblue;  /*  4px  */
 }
 
     .student-countainer,
@@ -114,8 +114,10 @@ main, aside {
         width:    auto;
         height:   auto;
         margin:   0 auto;
-        padding:  2vh 2vh 2vh 2vh;
+        padding:  2vh 0vh 2vh 0vh;
     }
+
+        .border-top {border-top: 0.2vh solid darkslateblue;}
 
         .student-item, 
         .work-item {
@@ -139,10 +141,10 @@ main, aside {
         position:       relative;
     
         width:          auto;
-        height:         73vh;
+        height:         71vh;
         margin-top:     19vh;
         margin-right:   2vh;
-        margin-bottom:  8vh;
+        margin-bottom:  10vh;
         margin-left:    2vh;
         padding:        0 auto;
     
@@ -204,8 +206,8 @@ main, aside {
         .section {
             position:       absolute;
             top:            30vh;
-            left:           2vh;
-            right:          2vh;
+            left:           4vh;
+            right:          4vh;
     
             width:          auto;
             height:         auto;
@@ -234,9 +236,9 @@ main, aside {
         height:         auto;
         margin-top:     0vh;
         margin-right:   2vh;
-        margin-bottom:  8vh;
+        margin-bottom:  10vh;
         margin-left:    2vh;
-        padding:        2vh 2vh 6vh 2vh;
+        padding:        2vh 4vh 6vh 4vh;
 
         border-top:     0.555vh solid darkslateblue;  /*  4px  */
         border-bottom:  0.555vh solid darkslateblue;  /*  4px  */
@@ -250,9 +252,7 @@ main, aside {
             padding:  2vh 0vh 2vh 0vh;
         }
 
-        .border-top {
-            border-top:  0.2vh solid darkslateblue;
-        }
+        .border-top {border-top: 0.2vh solid darkslateblue;}
     
             .student-item, 
             .work-item {
