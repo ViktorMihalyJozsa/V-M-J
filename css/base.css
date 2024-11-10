@@ -33,8 +33,8 @@ html, body {
 
         font-family:          'Raleway', cursive;
         font-weight:          bold;
-        color:                darkcyan;
-        text-shadow:          0.138vh 0.138vh black;
+        color:                teal;
+        text-shadow:          0.138vh 0.138vh rgba(0, 0, 0, 1);
     }
 
 

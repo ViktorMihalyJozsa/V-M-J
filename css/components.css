@@ -12,7 +12,7 @@ h1 {
     font-size:       6.666vh;  /*  48px  */
     line-height:     6.666vh;  /*  100%  */
     letter-spacing:  0.416vh;  /*  3px   */
-    text-shadow:     -0.277vh -0.277vh green, 0.277vh 0.277vh 0.277vh rgba(0, 0, 0, 0.75);
+    text-shadow:     0.277vh 0.277vh rgba(0, 0, 0, 1);
 }
   
 h2,
@@ -71,7 +71,6 @@ a {
     }
 
 
-    
 /*  ========================================================================  *\
     @ M E D I A  Q U E R I E S  ~  7 6 8 p x
 \*  ========================================================================  */
@@ -81,7 +80,7 @@ a {
         font-size:       4.444vh;  /*  32px  */
         line-height:     4.444vh;  /*  100%  */
         letter-spacing:  0.277vh;  /*  2px   */
-        text-shadow:     -0.277vh -0.277vh green, 0.277vh 0.277vh 0.277vh rgba(0, 0, 0, 0.75);
+        text-shadow:     0.277vh 0.277vh rgba(0, 0, 0, 1);
     }
       
     h2,
@@ -92,14 +91,14 @@ a {
     }
     
     h3 {
-        font-size:       2.222vh;  /*  20px  */
+        font-size:       2.222vh;  /*  16px  */
         line-height:     2.777vh;  /*  125%  */
         letter-spacing:  0.277vh;  /*  2px   */
     }
       
     p {
-        font-size:       1.944vh;  /*  14px  */
-        line-height:     2.138vh;  /*  110%  */
+        font-size:       1.666vh;  /*  12px  */
+        line-height:     1.833vh;  /*  110%  */
         letter-spacing:  0.138vh;  /*  1px   */
     }
     
