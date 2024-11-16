@@ -18,7 +18,7 @@ h1 {
 h2,
 .contact {
     font-size:       3.333vh;  /*  24px  */
-    line-height:     3.333vh;  /*  125%  */
+    line-height:     3.5vh;    /*  105%  */
     letter-spacing:  0.138vh;  /*  1px   */
 }
 
@@ -86,7 +86,7 @@ a {
     h2,
     .contact {
         font-size:       2.222vh;  /*  16px  */
-        line-height:     2.222vh;  /*  100%  */
+        line-height:     2.5vh;    /*  112.5%  */
         letter-spacing:  0.138vh;  /*  1px   */
     }
     

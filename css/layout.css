@@ -4,7 +4,6 @@
 
 \*  ========================================================================  */
 
-
 header {
     grid-area:      header;
     position:       relative;
@@ -56,7 +55,7 @@ header {
         padding:         2vh 2vh 2vh 2vh;
         letter-spacing:  1vh;
 
-        border-bottom:   0.2vh solid darkslateblue;
+        border-bottom:   0.416vh solid darkslateblue;  /*  3px  */
 
         text-align:      left;
     }
@@ -99,17 +98,20 @@ header {
         .student-countainer-head,
         .work-countainer-head {
             width:    auto;
-            height:   4vh;
+            height:   3.5vh;
             margin:   0 auto;
-            padding:  2vh 0vh 0vh 0vh;
+            padding:  4vh 0vh 2vh 0vh;
+
+            border-top:     0.416vh solid darkslateblue;  /*  3px  */
+            border-bottom:  0.138vh solid darkslateblue;  /*  1px  */
         }
 
         .student-countainer-list,
         .work-countainer-list {
-            width:    auto;
-            height:   22vh;
-            margin:   0 auto;
-            padding:  2vh 0vh 4vh 0vh;
+            width:       auto;
+            min-height:  28vh;
+            margin:      0 auto;
+            padding:     2vh 0vh 4vh 0vh;
         }
 
             .border-top {border-top: 0.2vh solid darkslateblue;}
@@ -119,7 +121,7 @@ header {
                 width:    auto;
                 height:   auto;
                 margin:   0 auto;
-                padding:  0vh 2vh 0vh 2vh;  
+                padding:  0vh 4vh 0vh 4vh;  
             }
 
 
@@ -196,7 +198,7 @@ header {
             height:         13vh;
             padding:        2vh 2vh 2vh 2vh;
 
-            border-bottom:  0.2vh solid darkslateblue;
+            border-bottom:  0.416vh solid darkslateblue;  /*  3px  */
         }
     
         .section {
@@ -226,28 +228,29 @@ header {
     
             .student-countainer-head,
             .work-countainer-head {
-                width:    auto;
-                height:   4vh;
-                margin:   0 auto;
-                padding:  2vh 0vh 0vh 0vh;
+                width:         calc(100vw - 12vh);
+                height:        2.5vh;
+                margin:        0 auto;
+                padding:       4vh 0vh 2vh 0vh;
+
+                border-top:     0.416vh solid darkslateblue;  /*  3px  */
+                border-bottom:  0.138vh solid darkslateblue;  /*  1px  */
             }
     
             .student-countainer-list,
             .work-countainer-list {
-                width:    auto;
-                height:   30vh;
-                margin:   0 auto;
-                padding:  2vh 0vh 4vh 0vh;
+                width:       calc(100vw - 12vh);
+                min-height:  28vh;
+                margin:      0 auto;
+                padding:     2vh 0vh 4vh 0vh;
             }
-    
-                .border-top {border-top: 0.2vh solid darkslateblue;}
     
                 .student-item, 
                 .work-item {
                     width:    auto;
                     height:   auto;
                     margin:   0 auto;
-                    padding:  0vh 2vh 0vh 2vh;  
+                    padding:  0 auto;  
                 }
     
 }
