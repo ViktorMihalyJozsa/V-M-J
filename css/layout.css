@@ -86,9 +86,9 @@ header {
 
         .section-write {
             width:            auto;
-            height:           28vh;
+            height:           32vh;
             margin:           0 auto;
-            padding:          2vh 2vh 2vh 2vh;
+            padding:          2vh 0vh 2vh 0vh;
 
             overflow:         scroll;
             scrollbar-width:  none;
@@ -233,9 +233,9 @@ main, aside {
 
             .section-write {
                 width:            auto;
-                height:           35vh;
+                height:           37vh;
                 margin:           0 auto;
-                padding:          2vh 2vh 2vh 2vh;
+                padding:          2vh 0vh 2vh 0vh;
 
                 overflow:         scroll;
                 scrollbar-width:  none;
