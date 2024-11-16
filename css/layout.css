@@ -81,12 +81,12 @@ header {
         right:     6vh;
 
         width:     auto;
-        height:    30vh;
+        height:    auto;
     }	
 
         .section-write {
-            width:            auto;
-            height:           32vh;
+            width:            calc(60vw - 12vh);
+            height:           30vh;
             margin:           0 auto;
             padding:          2vh 0vh 2vh 0vh;
 
@@ -209,8 +209,8 @@ main, aside {
         .section-headline{
             position:       absolute;
             top:            10vh;
-            right:          4vh;
-            left:           4vh;
+            right:          2vh;
+            left:           2vh;
     
             width:          auto;
             height:         13vh;
@@ -222,18 +222,18 @@ main, aside {
         .section {
             position:  absolute;
             top:       30vh;
-            left:      4vh;
-            right:     4vh;
+            left:      2vh;
+            right:     2vh;
             margin:    0 auto;
             padding:   0 auto;
 
-            width:     calc(100vw - 12vh);
+            width:     auto;
             height:    auto;
         }
 
             .section-write {
-                width:            auto;
-                height:           37vh;
+                width:            calc(100vw - 8vh);
+                height:           36vh;
                 margin:           0 auto;
                 padding:          2vh 0vh 2vh 0vh;
 
