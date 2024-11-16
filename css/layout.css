@@ -92,6 +92,9 @@ header {
 
             overflow:         scroll;
             scrollbar-width:  none;
+
+            border-bottom:    0vh;
+            border-radius:    0vh 0vh 0vh 25vh;
         }
 
 
@@ -230,12 +233,15 @@ main, aside {
 
             .section-write {
                 width:            auto;
-                height:           32vh;
+                height:           35vh;
                 margin:           0 auto;
                 padding:          2vh 2vh 2vh 2vh;
 
                 overflow:         scroll;
                 scrollbar-width:  none;
+
+                border-bottom:    0vh;
+                border-radius:    0vh 0vh 0vh 15vh;
             }
 
 
