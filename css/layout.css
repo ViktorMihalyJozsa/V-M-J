@@ -235,7 +235,7 @@ main, aside {
     }
     
     main, aside {
-        width:          calc(100vw - 4vh);
+        width:          calc(100vw - 12vh);
         height:         auto;
         margin-top:     0vh;
         margin-right:   2vh;
@@ -249,7 +249,7 @@ main, aside {
     
         .student-countainer,
         .work-countainer {
-            width:    auto;
+            width:    calc(100vw - 12vh);
             height:   auto;
             margin:   0 auto;
             padding:  2vh 0vh 2vh 0vh;

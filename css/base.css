@@ -44,12 +44,12 @@ html, body {
 
     body {background-color: white;}
 
-    /*header {background-color: blueviolet;}
+    header {background-color: blueviolet;}
         .profile-image {background-color: brown;}
         .social-media {background-color: aqua;}
         .section-headline {background-color: chartreuse;}
         .section {background-color: darkorange;}
 
-    main {background-color: darkred;}
+    main, aside {background-color: darkred;}
         .student-countainer, .work-countainer {background-color: green;}
         .student-item, .work-item {background-color: deeppink;}
