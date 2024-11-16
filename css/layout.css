@@ -52,38 +52,47 @@ header {
     .social-media {
         position:        absolute;
         top:             20vh;
-        left:            4vh;
+        left:            6vh;
 
-        width:           40vh;
-        height:          10vh;
+        width:           52.4vw;
+        height:          6vh;
         padding:         2vh 2vh 2vh 2vh;
         letter-spacing:  1vh;
+
+        border-bottom:   0.2vh solid darkslateblue;
 
         text-align:      left;
     }
 
     .section-headline{
-        position:    absolute;
-        top:         0vh;
-        right:       4vh;
+        position:  absolute;
+        top:       0vh;
+        right:     6vh;
 
-        width:       35vw;
-        height:      30vh;
-        padding:     6vh 2vh 2vh 2vh;
+        width:     35vw;
+        height:    22vh;
+        padding:   6vh 2vh 2vh 2vh;
     }
 
     .section {
-        position:       absolute;
-        top:            30vh;
-        left:           6vh;
-        right:          6vh;
+        position:  absolute;
+        top:       30vh;
+        left:      6vh;
+        right:     6vh;
 
-        width:          auto;
-        height:         auto;
-        padding:        4vh 0vh 4vh 0vh;
+        width:     auto;
+        height:    30vh;
+    }	
 
-        border-top:     0.2vh solid darkslateblue;
-    }
+        .section-write {
+            width:            auto;
+            height:           28vh;
+            margin:           0 auto;
+            padding:          2vh 2vh 2vh 2vh;
+
+            overflow:         scroll;
+            scrollbar-width:  none;
+        }
 
 
 /*  ========================================================================  *\
@@ -182,42 +191,52 @@ main, aside {
         .social-media {
             position:        absolute;
             top:             3vh;
-            right:           4vh;
+            left:            4vh;
     
-            width:           auto;
-            height:          auto;
+            width:           calc(100vw - 16vh);
+            height:          4vh;
             padding:         2vh 2vh 2vh 2vh;
             letter-spacing:  1vh;
+
+            border-bottom:   none;
 
             text-align:      right;
         }
     
         .section-headline{
-            position:  absolute;
-            top:       12.5vh;
-            right:     4vh;
-            left:      4vh;
+            position:       absolute;
+            top:            10vh;
+            right:          4vh;
+            left:           4vh;
     
-            width:     auto;
-            height:    auto;
-            padding:   2vh 0vh 2vh 0vh;
+            width:          auto;
+            height:         13vh;
+            padding:        5vh 0vh 2vh 0vh;
+
+            border-bottom:  0.2vh solid darkslateblue;
         }
     
         .section {
-            position:         absolute;
-            top:              30vh;
-            left:             4vh;
-            right:            4vh;
+            position:  absolute;
+            top:       30vh;
+            left:      4vh;
+            right:     4vh;
+            margin:    0 auto;
+            padding:   0 auto;
 
-            overflow:         scroll;
-            scrollbar-width:  none;
-    
-            width:            auto;
-            height:           auto;
-            padding:          4vh 0vh 4vh 0vh;
-    
-            border-top:       0.2vh solid darkslateblue;
+            width:     calc(100vw - 12vh);
+            height:    auto;
         }
+
+            .section-write {
+                width:            auto;
+                height:           32vh;
+                margin:           0 auto;
+                padding:          2vh 2vh 2vh 2vh;
+
+                overflow:         scroll;
+                scrollbar-width:  none;
+            }
 
 
 /*  ========================================================================  *\

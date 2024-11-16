@@ -49,6 +49,7 @@ html, body {
         .social-media {background-color: aqua;}
         .section-headline {background-color: chartreuse;}
         .section {background-color: darkorange;}
+            .section-write {background-color: darkorchid;}
 
     main, aside {background-color: darkred;}
         .student-countainer, .work-countainer {background-color: green;}
