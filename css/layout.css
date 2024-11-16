@@ -177,9 +177,9 @@ header {
             top:             2vh;
             left:            4vh;
     
-            width:           calc(100vw - 28vh);
+            width:           calc(100vw - 20vh);
             height:          4vh;
-            padding:         2vh 8vh 2vh 8vh;
+            padding:         2vh 4vh 2vh 4vh;
             letter-spacing:  1vh;
     
             border-bottom:   none;
