@@ -140,7 +140,7 @@ main, aside {
         grid-area:      header;
         position:       relative;
     
-        width:          auto;
+        width:          calc(100vw - 4vh);
         height:         71vh;
         margin-top:     19vh;
         margin-right:   2vh;
@@ -193,27 +193,30 @@ main, aside {
         }
     
         .section-headline{
-            position:    absolute;
-            top:         12.5vh;
-            right:       4vh;
-            left:        4vh;
+            position:  absolute;
+            top:       12.5vh;
+            right:     4vh;
+            left:      4vh;
     
-            width:       auto;
-            height:      auto;
-            padding:     2vh 0vh 2vh 0vh;
+            width:     auto;
+            height:    auto;
+            padding:   2vh 0vh 2vh 0vh;
         }
     
         .section {
-            position:       absolute;
-            top:            30vh;
-            left:           4vh;
-            right:          4vh;
+            position:         absolute;
+            top:              30vh;
+            left:             4vh;
+            right:            4vh;
+
+            overflow:         scroll;
+            scrollbar-width:  none;
     
-            width:          auto;
-            height:         auto;
-            padding:        4vh 0vh 4vh 0vh;
+            width:            auto;
+            height:           auto;
+            padding:          4vh 0vh 4vh 0vh;
     
-            border-top:     0.2vh solid darkslateblue;
+            border-top:       0.2vh solid darkslateblue;
         }
 
 
@@ -232,7 +235,7 @@ main, aside {
     }
     
     main, aside {
-        width:          auto;
+        width:          calc(100vw - 4vh);
         height:         auto;
         margin-top:     0vh;
         margin-right:   2vh;
