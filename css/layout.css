@@ -35,7 +35,7 @@ header {
             height:            40vh;
             border-radius:     50%;
             padding:           0.1vh;
-            background-color:  rgba(0, 0, 0, 0.5);
+            background-color:  rgba(0, 0, 139, 0.8);
             transition:        all 1s ease-in-out;
             filter:            grayscale(80%);
         }

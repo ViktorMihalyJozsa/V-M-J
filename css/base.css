@@ -26,10 +26,11 @@ html, body {
 }
 
     body {
-        background:           url('#') no-repeat center center fixed;
+        background:           url('../image/background.jpg');
         background-size:      cover;
         background-repeat:    no-repeat;
-        background-position:  left;
+        background-position:  center;
+        opacity:              1;
 
         font-family:          'Raleway', cursive;
         font-weight:          bold;
