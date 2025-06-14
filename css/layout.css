@@ -90,7 +90,7 @@ header {
 
         .section-write {
             width:    auto;
-            height:   30vh;
+            height:   auto;
             margin:   0 auto;
             padding:  2vh 0vh 2vh 0vh;
         }
@@ -221,7 +221,7 @@ header {
     
             .section-write {
                 width:    auto;
-                height:   38vh;
+                height:   auto;
                 margin:   0 auto;
                 padding:  2vh 0vh 2vh 0vh;
             }

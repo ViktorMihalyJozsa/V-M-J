@@ -15,17 +15,17 @@ h1 {
     text-shadow:     0.277vh 0.277vh rgba(0, 0, 0, 1);
 }
   
-h2,
+h2, h3,
 .contact {
-    font-size:       3.333vh;  /*  24px  */
-    line-height:     3.5vh;    /*  105%  */
-    letter-spacing:  0.138vh;  /*  1px   */
+    font-size:       1.5rem;   /*    */
+    line-height:     2.25rem;  /*    */
+    letter-spacing:  0.15rem;  /*    */
 }
 
-h3 {
-    font-size:       2.777vh;  /*  20px  */
-    line-height:     2.777vh;  /*  125%  */
-    letter-spacing:  0.277vh;  /*  2px   */
+h4 {
+    font-size:       1.25rem;  /*    */
+    line-height:     2rem;     /*    */
+    letter-spacing:  0.15rem;  /*    */
 }
   
 p {
@@ -83,17 +83,17 @@ a {
         text-shadow:     0.277vh 0.277vh rgba(0, 0, 0, 1);
     }
       
-    h2,
+    h2, h3,
     .contact {
-        font-size:       2.222vh;  /*  16px  */
-        line-height:     2.5vh;    /*  112.5%  */
-        letter-spacing:  0.138vh;  /*  1px   */
+        font-size:       1.25rem;  /*    */
+        line-height:     2rem;     /*    */
+        letter-spacing:  0.15rem;  /*    */
     }
-    
-    h3 {
-        font-size:       2.222vh;  /*  16px  */
-        line-height:     2.777vh;  /*  125%  */
-        letter-spacing:  0.277vh;  /*  2px   */
+
+    h4 {
+        font-size:       1rem;    /*    */
+        line-height:     1.5rem;  /*    */
+        letter-spacing:  0.1rem;  /*    */
     }
       
     p {
