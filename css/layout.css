@@ -196,11 +196,9 @@ header {
     
             width:          calc(100vw - 16vh);
             height:         auto;
-            padding:        2vh 2vh 2vh 2vh;
+            padding:        2vh 4vw 0vh 4vw;
 
-            border-bottom:  0.416vh solid darkslateblue;  /*  3px  */
-
-            background-color: aqua;
+            /*background-color: aqua;*/
         }
     
         .section {
@@ -210,17 +208,18 @@ header {
             right:            4vh;
     
             width:            calc(100vw - 12vh);
-            height:           40vh;
+            height:           35vh;
             margin:           0 auto;
             padding:          0 auto;
     
             overflow:         scroll;
             scrollbar-width:  none;
     
+            border-top:       0.416vh solid darkslateblue;  /*  3px  */
             border-bottom:    0vh;
             border-radius:    0vh 0vh 0vh 15vh;
 
-            background-color: lime;
+            /*background-color: lime;*/
         }	
     
             .section-write {
