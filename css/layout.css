@@ -195,10 +195,12 @@ header {
             right:          4vh;
     
             width:          calc(100vw - 16vh);
-            height:         13vh;
+            height:         auto;
             padding:        2vh 2vh 2vh 2vh;
 
             border-bottom:  0.416vh solid darkslateblue;  /*  3px  */
+
+            background-color: aqua;
         }
     
         .section {
@@ -208,7 +210,7 @@ header {
             right:            4vh;
     
             width:            calc(100vw - 12vh);
-            height:           42vh;
+            height:           40vh;
             margin:           0 auto;
             padding:          0 auto;
     
@@ -217,13 +219,15 @@ header {
     
             border-bottom:    0vh;
             border-radius:    0vh 0vh 0vh 15vh;
+
+            background-color: lime;
         }	
     
             .section-write {
                 width:    auto;
                 height:   auto;
                 margin:   0 auto;
-                padding:  2vh 0vh 2vh 0vh;
+                padding:  0 aUTO;
             }
     
             .student-countainer-head,
